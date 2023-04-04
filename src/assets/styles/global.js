@@ -8,8 +8,9 @@ export default createGlobalStyle`
   font-family: 'sora', sans-serif;
 }
 body {
-  background-color: ${({ theme }) => theme.backgroundColor};
+  background-color: ${({ theme }) => theme.colors.background};
   font-size: 16px;
+  color: ${({ theme }) => theme.colors.gray[900]};
 }
 
 button {
