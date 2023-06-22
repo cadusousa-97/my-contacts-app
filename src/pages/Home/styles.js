@@ -8,6 +8,7 @@ export const Header = styled.header`
 display: flex;
 align-items: center;
 justify-content: space-between;
+margin-top: 32px;
 
 strong {
   font-size: 24px;
@@ -27,6 +28,25 @@ a {
     color: #fff;
   }
 }`
+
+export const InputSearchContainer = styled.div`
+width: 100%;
+
+input {
+  width: 100%;
+  border-radius: 25px;
+  background-color: #fff;
+  border: none;
+  height: 50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  outline: 0;
+  padding: 0 16px;
+
+  &::placeholder {
+    color: #BCBCBC;
+  }
+}
+`
 
 export const ListContainer = styled.div`
   margin-top: 24px;
